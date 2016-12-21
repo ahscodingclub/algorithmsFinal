@@ -179,14 +179,22 @@ int main()
 	testLinearProbingHashTable();
 	testBTree();
 	testTrie();
-	cout << fixed << setprecision(10) << "Average add time for linkedListHashTable is: " << linkedListHashTableAverageAddTime*100 << " milliseconds" << endl;
-	cout << fixed << setprecision(10) <<  "Average search time for linkedListHashTable is: " << linkedListHashTableAverageSearchTime*100 << " milliseconds" << endl;
-	cout << fixed << setprecision(10) <<  "Average add time for linearProbingHashTable is: " << linearProbingHashTableAverageAddTime*100 << " milliseconds" << endl;
-	cout << fixed << setprecision(10) <<  "Average search time for linearProbingHashTable is: " << linearProbingHashTableAverageSearchTime*100 << " milliseconds" << endl;
-	cout << fixed << setprecision(10) <<  "Average add time for BTree is: " << BTreeAverageAddTime*100 << " milliseconds" << endl;
-	cout << fixed << setprecision(10) <<  "Average search time for BTree is: " << BTreeAverageSearchTime*100 << " milliseconds" << endl;	
-	cout << fixed << setprecision(10) <<  "Average add time for Trie is: " << TrieAverageAddTime*100 << " milliseconds" << endl;
-	cout << fixed << setprecision(10) <<  "Average search time for Trie is: " << TrieAverageSearchTime*100 << " milliseconds" << endl;
-	
+	cout << fixed << setprecision(10) << "Average add time for linkedListHashTable is: " 
+             << linkedListHashTableAverageAddTime*100 << " milliseconds" << endl;
+	cout << fixed << setprecision(10) <<  "Average search time for linkedListHashTable is: " 
+             << linkedListHashTableAverageSearchTime*100 << " milliseconds" << endl;
+	cout << fixed << setprecision(10) <<  "Average add time for linearProbingHashTable is: "
+             << linearProbingHashTableAverageAddTime*100 << " milliseconds" << endl;
+	cout << fixed << setprecision(10) <<  "Average search time for linearProbingHashTable is: " 
+             << linearProbingHashTableAverageSearchTime*100 << " milliseconds" << endl;
+	cout << fixed << setprecision(10) <<  "Average add time for BTree is: " 
+             << BTreeAverageAddTime*100 << " milliseconds" << endl;
+	cout << fixed << setprecision(10) <<  "Average search time for BTree is: " 
+             << BTreeAverageSearchTime*100 << " milliseconds" << endl;	
+	cout << fixed << setprecision(10) <<  "Average add time for Trie is: " 
+             << TrieAverageAddTime*100 << " milliseconds" << endl;
+	cout << fixed << setprecision(10) <<  "Average search time for Trie is: " 
+             << TrieAverageSearchTime*100 << " milliseconds" << endl;
+
 	return 0;	
 }
